@@ -5,19 +5,19 @@ import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="app">
-      {/* <h1>building a LinkedIn App</h1> */}
-
-      {/* header */}
-      <Header/>
-
+    <div>
+      <div className="app">
+        {/* header */}
+        <Header />
+      </div>
       {/* App body */}
       <div className="app__body">
-        <Sidebar/>
-      {/* Feed */}
-      {/* Widgets */}
+        <Sidebar />
+        {/* Feed */}
+        {/* Widgets */}
       </div>
     </div>
+    
   );
 }
 
